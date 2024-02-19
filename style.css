@@ -56,6 +56,10 @@ nav{
 #containar #left{
     width: 30%;
 }
+#containar-2{
+    display:flex ;
+
+}
 
 @media (max-width:850px) {
     .b-2{
@@ -86,4 +90,9 @@ nav{
     padding: 7px 1px;
     font-size: 10px;
    }
+
+#containar-2{
+    display: block;
+    width: 100%;
+}
 }
