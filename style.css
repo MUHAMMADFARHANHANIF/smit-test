@@ -34,6 +34,8 @@ nav{
 }
 .b-1{
     background-color: red;
+    padding: 5px 5px;
+    
 }
 .b-2{
     background-color: black;
@@ -48,12 +50,40 @@ nav{
     padding: 20px 50px;
 
 }
-
+#containar{
+    display: flex;
+}
+#containar #left{
+    width: 30%;
+}
 
 @media (max-width:850px) {
     .b-2{
         display: none;
     }
+    #left{
+        font-size: 1rem;
+        margin-top: 100px;
+    }
+   .c-b-1{
+    padding: 10px 10px;
+    font-size: 15px;
+   }
+   #containar{
+    display: block;
+    flex-wrap: wrap;
+    /* background-color: #fff; */
+   }
 
-    
+   #containar #left{
+    /* padding: 100px 100px; */
+    margin-bottom: 100px;
+   }   
+   #right img{
+    margin-top: 100px;
+   } 
+   .b-1{
+    padding: 7px 1px;
+    font-size: 10px;
+   }
 }
